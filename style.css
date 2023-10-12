@@ -1,0 +1,60 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+/* Add media queries for responsive design */
+@media screen and (max-width: 768px) {
+    nav ul {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/* Add more CSS styles to customize your website */
